@@ -1,8 +1,4 @@
-# This script generates a bar chart representing the GDP Per Capita of several countries, 
-# using the matplotlib library in Python. The countries included are USA, Canada, Germany, UK, and France. 
-# Each country bar on the graph is given a distinct color. The x-axis represents the country names and 
-# the y-axis represents the GDP Per Capita. The title of the graph is 'Country Vs GDP Per Capita'.
-# The graph also includes a grid for better visualization of data points.
+# Generates a bar chart representing GDP per Capita of particular countries using matplotlib library in python.
 import matplotlib.pyplot as plt
 
 Country = ['USA', 'Canada', 'Germany', 'UK', 'France']

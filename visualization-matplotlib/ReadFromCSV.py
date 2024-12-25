@@ -1,7 +1,4 @@
-# This Python script is used for data analysis on sales data stored in a CSV file.
-# It uses the pandas library to read the data from the referenced CSV file into a DataFrame, where specific columns (SalesID and ProductPrice) are extracted and converted into numpy arrays.
-# These data arrays are then visualized in a line graph using matplotlib, with the SalesID and ProductPrice as the x and y-axes, respectively.
-# The 'ggplot' style is used for the plot, and the resultant graph is displayed with a title "Sales Analysis".
+# Reads Sales data from a CSV file, extracts the 'SalesID' and 'ProductPrice' columns, and visualizes it using a plot, with 'SalesID' on the X-axis and 'ProductPrice' on the Y-axis.
 # https://github.com/geekcomputers/Python/blob/master/ReadFromCSV.py
 
 import pandas as pd  # pandas library to read csv file
