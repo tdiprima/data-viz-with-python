@@ -1,5 +1,10 @@
+# This code generates a bar chart that visualizes College Admissions by Courses.
+# The x-axis represents various Courses (such as "Engineering", "Hotel Management", etc) 
+# and the y-axis represents the number of admissions in each course.
+# The add_labels function places value labels on each bar in the chart.
+# The figure size, title and axis labels are also set in this script.
+# Finally, the "plt.show()" command displays the created bar chart on screen.
 # https://www.geeksforgeeks.org/adding-value-labels-on-a-matplotlib-bar-chart/
-# importing library
 import matplotlib.pyplot as plt
 
 

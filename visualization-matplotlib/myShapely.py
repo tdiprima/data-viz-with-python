@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
-
-"""Shapely example
-Check if one polygon is completely inside another polygon.
-Additional check if the polygons overlap.
-Use matplotlib to draw the polygons.
+"""
+This script creates two polygons, one that is typically inside the other, based on specified coordinates.
+The script then checks and prints whether the inner polygon is entirely within the outer polygon, and if they intersect but the inner isn't entirely contained.
+It also plots these polygons using matplotlib with different colors for easier visualization.
+Two different drawing approaches are given: draw_polygons() which uses descartes and draw_polygons1() which doesn't.
+Only draw_polygons1() is called in this script.
 """
 
 import sys
