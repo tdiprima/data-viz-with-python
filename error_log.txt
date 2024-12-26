@@ -1,1 +1,0 @@
-Error in script: /Users/tdiprima/Documents/trabajo/python/data-viz-with-python/visualization-matplotlib/ReadFromCSV.py
